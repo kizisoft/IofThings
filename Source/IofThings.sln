@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{0080C706-6FDC-491E-9DA7-B4C154366908}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{A689990E-F9AB-449A-B394-A3FE7D552255}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{C41CE15D-61F9-4680-A1B3-4D47E3DDF98C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{45246CF6-D3DF-4AB2-99DE-0783E3330B72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{70F94815-48BF-461E-94E8-5F196BDD5DA0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IofThings.Client.Angular", "Client\IofThings.Client.Angular\IofThings.Client.Angular.csproj", "{AF0A0AD0-4EFD-4B97-A2E8-62DEDEC819F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IofThings.Data.Common", "Data\IofThings.Data.Common\IofThings.Data.Common.csproj", "{3A162C84-F2D9-4D90-B8E5-F8CAEC6E1CF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IofThings.Data.Models", "Data\IofThings.Data.Models\IofThings.Data.Models.csproj", "{1A173153-C7DA-4A31-8021-3B65F15BF415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IofThings.Server.WebApi", "Server\IofThings.Server.WebApi\IofThings.Server.WebApi.csproj", "{C30F1DD8-7877-4225-B7CE-21E5BDF7991A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IofThings.Server.Infrastructure", "Server\IofThings.Server.Infrastructure\IofThings.Server.Infrastructure.csproj", "{3889E3D6-EEC2-4018-905B-19863AE15CDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IofThings.Services.Data", "Services\IofThings.Services.Data\IofThings.Services.Data.csproj", "{6FD0E241-88C1-493E-B0A6-D261A1C9AB91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IofThings.Services.Common", "Services\IofThings.Services.Common\IofThings.Services.Common.csproj", "{E63E94A9-D9CD-4AB0-A881-8A77DB88BA70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IofThings.Server.Common", "Server\IofThings.Server.Common\IofThings.Server.Common.csproj", "{BB5DE465-CCDA-40C2-884A-D8B3FACD2465}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF0A0AD0-4EFD-4B97-A2E8-62DEDEC819F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF0A0AD0-4EFD-4B97-A2E8-62DEDEC819F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF0A0AD0-4EFD-4B97-A2E8-62DEDEC819F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF0A0AD0-4EFD-4B97-A2E8-62DEDEC819F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A162C84-F2D9-4D90-B8E5-F8CAEC6E1CF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A162C84-F2D9-4D90-B8E5-F8CAEC6E1CF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A162C84-F2D9-4D90-B8E5-F8CAEC6E1CF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A162C84-F2D9-4D90-B8E5-F8CAEC6E1CF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A173153-C7DA-4A31-8021-3B65F15BF415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A173153-C7DA-4A31-8021-3B65F15BF415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A173153-C7DA-4A31-8021-3B65F15BF415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A173153-C7DA-4A31-8021-3B65F15BF415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30F1DD8-7877-4225-B7CE-21E5BDF7991A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30F1DD8-7877-4225-B7CE-21E5BDF7991A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30F1DD8-7877-4225-B7CE-21E5BDF7991A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30F1DD8-7877-4225-B7CE-21E5BDF7991A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3889E3D6-EEC2-4018-905B-19863AE15CDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3889E3D6-EEC2-4018-905B-19863AE15CDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3889E3D6-EEC2-4018-905B-19863AE15CDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3889E3D6-EEC2-4018-905B-19863AE15CDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD0E241-88C1-493E-B0A6-D261A1C9AB91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD0E241-88C1-493E-B0A6-D261A1C9AB91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD0E241-88C1-493E-B0A6-D261A1C9AB91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD0E241-88C1-493E-B0A6-D261A1C9AB91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E63E94A9-D9CD-4AB0-A881-8A77DB88BA70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E63E94A9-D9CD-4AB0-A881-8A77DB88BA70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E63E94A9-D9CD-4AB0-A881-8A77DB88BA70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E63E94A9-D9CD-4AB0-A881-8A77DB88BA70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB5DE465-CCDA-40C2-884A-D8B3FACD2465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB5DE465-CCDA-40C2-884A-D8B3FACD2465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB5DE465-CCDA-40C2-884A-D8B3FACD2465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB5DE465-CCDA-40C2-884A-D8B3FACD2465}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AF0A0AD0-4EFD-4B97-A2E8-62DEDEC819F2} = {C41CE15D-61F9-4680-A1B3-4D47E3DDF98C}
+		{3A162C84-F2D9-4D90-B8E5-F8CAEC6E1CF7} = {0080C706-6FDC-491E-9DA7-B4C154366908}
+		{1A173153-C7DA-4A31-8021-3B65F15BF415} = {0080C706-6FDC-491E-9DA7-B4C154366908}
+		{C30F1DD8-7877-4225-B7CE-21E5BDF7991A} = {A689990E-F9AB-449A-B394-A3FE7D552255}
+		{3889E3D6-EEC2-4018-905B-19863AE15CDA} = {A689990E-F9AB-449A-B394-A3FE7D552255}
+		{6FD0E241-88C1-493E-B0A6-D261A1C9AB91} = {70F94815-48BF-461E-94E8-5F196BDD5DA0}
+		{E63E94A9-D9CD-4AB0-A881-8A77DB88BA70} = {70F94815-48BF-461E-94E8-5F196BDD5DA0}
+		{BB5DE465-CCDA-40C2-884A-D8B3FACD2465} = {A689990E-F9AB-449A-B394-A3FE7D552255}
+	EndGlobalSection
+EndGlobal
